@@ -8,7 +8,7 @@ mocha = "3.0.1"
 gson = "2.13.0"
 
 # runtime-minestom
-minestom = "7320437640"
+minestom = "1_21_5-99d5eca286"
 
 
 [libraries]
