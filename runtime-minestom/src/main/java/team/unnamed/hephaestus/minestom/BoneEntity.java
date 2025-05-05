@@ -96,7 +96,7 @@ public class BoneEntity extends GenericBoneEntity implements BoneModifierMap.For
 
     protected void initialize(Vector3Float initialPosition, Quaternion initialRotation) {
         ItemDisplayMeta meta = (ItemDisplayMeta) getEntityMeta();
-        meta.setDisplayContext(ItemDisplayMeta.DisplayContext.THIRD_PERSON_LEFT_HAND);
+        meta.setDisplayContext(ItemDisplayMeta.DisplayContext.THIRDPERSON_LEFT_HAND);
         meta.setTransformationInterpolationDuration(3);
         meta.setViewRange(1000);
         meta.setHasNoGravity(true);
