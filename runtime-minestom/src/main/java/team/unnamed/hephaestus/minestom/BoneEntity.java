@@ -131,7 +131,9 @@ public class BoneEntity extends GenericBoneEntity implements BoneModifierMap.For
         ItemDisplayMeta meta = (ItemDisplayMeta) getEntityMeta();
         meta.setNotifyAboutChanges(false);
         meta.setTransformationInterpolationStartDelta(0);
-        meta.setTranslation(new Pos(position.x(), position.y(), position.z()).mul(modelScale * bone.scale()));
+        meta.setTranslation(new Pos(position.x(), position.y(), position.z())
+                .mul(modelScale * bone.scale())
+                .withY(y -> y - view.getEntityType().height()));
         meta.setRightRotation(rotation.toFloatArray());
         meta.setScale(new Vec(
                 modelScale * bone.scale() * scale.x(),
