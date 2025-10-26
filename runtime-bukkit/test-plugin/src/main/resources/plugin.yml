@@ -1,9 +1,0 @@
-main: team.unnamed.hephaestus.bukkit.plugin.HephaestusTestPlugin
-name: hephaestus
-version: 1.0.0
-api-version: 1.20
-depend: [creative-central]
-softdepend: [Citizens]
-commands:
-    hephaestus:
-        description: Main command for hephaestus-engine plugin
