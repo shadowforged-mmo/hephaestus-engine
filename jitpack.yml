@@ -1,2 +1,5 @@
 jdk:
   - openjdk21
+
+install:
+  - ./gradlew :hephaestus-api:publishToMavenLocal :hephaestus-reader-blockbench:publishToMavenLocal :hephaestus-runtime-minestom:publishToMavenLocal
