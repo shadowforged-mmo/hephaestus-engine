@@ -1,5 +1,5 @@
 [versions]
-creative = "1.8.0-SNAPSHOT"
+creative = "1f92346303"
 adventure = "4.15.0"
 annotations = "24.1.0"
 mocha = "3.0.1"
@@ -12,9 +12,9 @@ minestom = "1_21_5-2398778b46"
 
 
 [libraries]
-creative-api = { group = "team.unnamed", name = "creative-api", version.ref =  "creative" }
-creative-server = { group = "team.unnamed", name = "creative-server", version.ref = "creative" }
-creative-serializer-minecraft = { group = "team.unnamed", name = "creative-serializer-minecraft", version.ref = "creative" }
+creative-api = { group = "com.github.shadowforged-mmo.creative", name = "creative-api", version.ref =  "creative" }
+creative-server = { group = "com.github.shadowforged-mmo.creative", name = "creative-server", version.ref = "creative" }
+creative-serializer-minecraft = { group = "com.github.shadowforged-mmo.creative", name = "creative-serializer-minecraft", version.ref = "creative" }
 
 mocha = { group = "team.unnamed", name = "mocha", version.ref = "mocha" }
 
